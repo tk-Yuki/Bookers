@@ -1,0 +1,77 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ 
+
+ 
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+
+#notice {
+    color: green;
+}
+
+p,ol,ul,td {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+th {
+    padding-bottom: 5px;
+}
+
+td {
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+  background-color: #000;
+  color: white;
+}
+/*a:-webkit-any-link {*/
+/*    cursor: pointer;*/
+/*    text-decoration: underline;*/
+/*}*/
+
+label {
+    display: block;
+}
+
+.field {
+    margin-bottom: 10px;
+}
+
+.actions {
+    margin-bottom: 10px;
+}
+
+
+
+
